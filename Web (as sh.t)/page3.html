@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>page3</title>
+    <link rel="stylesheet" href="page2.css">
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+</head>
+<body>
+    <div class="app">
+        <div class="top">
+            <div class="top_left">
+                <div class="top_left_1">
+                    <div class="tongnhanvien">
+                        <p class="sl_nhan_vien">Tổng nhân viên</p>
+                        <p class="number_nv">35106</p>
+                    </div>
+                    <div class="option_1-2">
+                        <div class="info_nv">
+                            <a href="./page2.html"><p class="info_nv_text">Thông tin cơ bản nhân viên</p></a>
+                        </div>
+                        <div class="status_nv">
+                            <a href="./page3.html"><p class="status_nv_text">Trạng thái chấm công</p></a>
+                        </div>
+                    </div>
+                    <div class="option_3-4">
+                        <div class="Luong_nv">
+                            <a href=""><p class="Luong_nv_text">Lương nhân viên</p></a>
+                        </div>
+                        <div class="chuyen_can_nv">
+                            <a href=""><p class="chuyen_can_nv_text">Chuyên cần</p></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="top_left_2">
+                    <div class="phong_ban">
+                        <p class="phong_ban_text">Phòng ban</p>
+                        <img class="img" width="220" height="220" src="./img/phong-ban1.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- <div class="top_left_3">
+                    
+                </div> -->
+            </div>
+
+            <div class="top_right">
+                <div class="add_staff">
+                    <a href=""><p class="add_text">Thêm Nhân Viên</p></a>
+                </div>
+                <div class="dell_staff">
+                    <a href=""><p class="add_text">Xóa Nhân Viên</p></a>
+                </div>
+                <div class="check_info">
+                    <a href=""><p class="add_text">Sửa Thông Tin</p></a>
+                </div>
+                <div class="export_csv">
+                    <a href=""><p class="add_text">Tính Lương</p></a>
+                </div>
+                <div class="export_csv1">
+                    <a href=""><p class="add_text1">Đăng Xuất</p></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="table">
+            <table class="table_themes table_hover">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Họ và Tên</th>
+                        <th>Check In</th>
+                        <th>Check Out</th>
+                        <th>Date</th>
+                    </tr>
+                </thead>
+                <tbody id="tbody2">
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+<script src="./moment.js"></script>
+<script src="./app2.js"></script>
+
+</html>
